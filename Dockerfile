@@ -1,4 +1,4 @@
-FROM maven:3.6-jdk-11
+FROM maven:3.6-jdk-13
 
 LABEL maintainer="BUDDY Activities <info@buddy-app.de>"
 
