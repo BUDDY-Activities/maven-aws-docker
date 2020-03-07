@@ -7,4 +7,4 @@ if [[ -z $RELEASE ]]; then
 fi
 
 docker build -t softinstigate/maven-aws:latest .
-docker tag softinstigate/maven-aws:latest softinstigate/maven-aws:"$RELEASE"
+docker tag buddyactivities/maven-aws:latest buddyactivities/maven-aws:"$RELEASE"
