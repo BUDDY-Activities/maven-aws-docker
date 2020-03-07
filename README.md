@@ -15,6 +15,14 @@ $ docker pull buddyactivities/maven-aws
 $ docker run --rm buddyactivities/maven-aws clean install
 ```
 
+For specific Java versions use: `$ docker pull buddyactivities/maven-aws:jdk-13`
+
+Currently supported Java versions:
+
+- JDK 13
+
+
+
 ## Base image ##
 
 [maven](https://hub.docker.com/r/library/maven/) (maven:3-jdk-13)
