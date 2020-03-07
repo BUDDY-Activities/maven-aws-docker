@@ -11,8 +11,8 @@ This image has been used to build Java projects and to push them to AWS ECS cont
 If you want to `mvn clean install` your Java project, CD where the pom.xml is located, then:
 
 ```
-$ docker pull softinstigate/maven-aws
-$ docker run --rm softinstigate/maven-aws clean install
+$ docker pull buddyactivities/maven-aws
+$ docker run --rm buddyactivities/maven-aws clean install
 ```
 
 ## Base image ##
@@ -21,8 +21,8 @@ $ docker run --rm softinstigate/maven-aws clean install
 
 ## Additional packages ##
 
- - python-pip
- - python-yaml
+ - py-pip
+ - py-yaml
  - python-dev
  - groff
  - [aws-cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
